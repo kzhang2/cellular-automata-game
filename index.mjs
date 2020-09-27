@@ -5,7 +5,7 @@ import { printStrategy } from "./utils.mjs";
 let start = (async () => {
     hide_elements();
     // start_button.style.display = "none";
-    const { default: sketch_creator } = await import("./sketch.js");
+    const { default: sketch_creator } = await import("./sketch.mjs");
     // console.log(sketch);
     new window.p5(sketch_creator(strategy));
 });
