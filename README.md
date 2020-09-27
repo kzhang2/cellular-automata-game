@@ -1,5 +1,5 @@
 # Cellular Automata Game 
-
+Hosted at: https://kevinwzhang.com/genetic.
 ## How to run locally
 Because of browser security issues, rather than just open the index.html file 
 it is necessary to serve the files from a web server. One simple way to do 
