@@ -1,0 +1,56 @@
+/* style.css */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    /* display: flex; */
+    /* This centers our sketch horizontally. */
+    /* justify-content: center; */
+    /* This centers our sketch vertically. */
+    /* align-items: center; */
+}
+.break {
+    flex-basis: 100%;
+    /* width: 100%; */
+    height: 0%;
+  }
+
+#sketch-holder {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lato';
+    /* width: 40%; */
+}
+
+#space {
+    flex-basis: 100%;
+    height: 20%;
+}
+
+#strategy-select {
+    text-align: center;
+    font-family: 'Lato';
+    /* display: flex; */
+    justify-content: center;
+    /* This centers our sketch vertically.*/
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+p {
+    display: inline-block;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    clear: both;
+    display: inline-block;
+}
