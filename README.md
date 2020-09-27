@@ -13,6 +13,6 @@ Each time step, each cell of each organism type does one of those five actions.
 A genome consists of a sequence of actions, which loops over time as long as cells containing that genome still exist. 
 
 ## TODOs
-Add Perlin noise to food generation. \\
-Support different kinds of actions. \\
+Add Perlin noise to food generation. <br>
+Support different kinds of actions. <br>
 Add reinforcement learning to search for optimal genomes. 
